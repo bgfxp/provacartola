@@ -1,0 +1,40 @@
+.clubs {
+    padding: 20px;
+  }
+  
+  .club-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* alinhar os clubes à esquerda */
+  }
+  
+  .club-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .club-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .club-item div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .club-item strong {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .club-item p {
+    font-size: 14px;
+    color: #666;
+  }
+  
